@@ -32,8 +32,9 @@
 		82C9BE4C28DA89DE00D890EF /* TryItOutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9BE4B28DA89DE00D890EF /* TryItOutCell.swift */; };
 		82C9BE4E28DA8A0500D890EF /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9BE4D28DA8A0500D890EF /* HeaderViewCell.swift */; };
 		82C9BE5028DA8A3C00D890EF /* PopularViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9BE4F28DA8A3C00D890EF /* PopularViewCell.swift */; };
+		EB43688728FDD8D20023A2F9 /* TelaRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB43688628FDD8D20023A2F9 /* TelaRegisterVC.swift */; };
+		EB43688928FDD8E40023A2F9 /* TelaRegisterVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB43688828FDD8E40023A2F9 /* TelaRegisterVC.storyboard */; };
 		EB7E9FEC28BB145A00F8C91B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E9FEB28BB145A00F8C91B /* Login.swift */; };
-		EB7E9FEF28BB173400F8C91B /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E9FEE28BB173400F8C91B /* Cadastro.swift */; };
 		EB7E9FF228BBA73900F8C91B /* EsqueciSenha.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E9FF128BBA73900F8C91B /* EsqueciSenha.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +66,9 @@
 		82C9BE4B28DA89DE00D890EF /* TryItOutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryItOutCell.swift; sourceTree = "<group>"; };
 		82C9BE4D28DA8A0500D890EF /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		82C9BE4F28DA8A3C00D890EF /* PopularViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewCell.swift; sourceTree = "<group>"; };
+		EB43688628FDD8D20023A2F9 /* TelaRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaRegisterVC.swift; sourceTree = "<group>"; };
+		EB43688828FDD8E40023A2F9 /* TelaRegisterVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TelaRegisterVC.storyboard; sourceTree = "<group>"; };
 		EB7E9FEB28BB145A00F8C91B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		EB7E9FEE28BB173400F8C91B /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
 		EB7E9FF128BBA73900F8C91B /* EsqueciSenha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueciSenha.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,7 +242,8 @@
 		EB7E9FED28BB171500F8C91B /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				EB7E9FEE28BB173400F8C91B /* Cadastro.swift */,
+				EB43688628FDD8D20023A2F9 /* TelaRegisterVC.swift */,
+				EB43688828FDD8E40023A2F9 /* TelaRegisterVC.storyboard */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				069F5DE128B4165F00C15177 /* TagCell.xib in Resources */,
 				06459BC228B01A080054F510 /* LaunchScreen.storyboard in Resources */,
 				06459BBF28B01A080054F510 /* Assets.xcassets in Resources */,
+				EB43688928FDD8E40023A2F9 /* TelaRegisterVC.storyboard in Resources */,
 				06459BBA28B01A060054F510 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,12 +330,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7E9FEF28BB173400F8C91B /* Cadastro.swift in Sources */,
 				82A4040228DAA4F700F38990 /* TagsResultsTableViewCell.swift in Sources */,
 				06459BB728B01A060054F510 /* HomeViewController.swift in Sources */,
 				06459BBD28B01A060054F510 /* GoReceitas.xcdatamodeld in Sources */,
 				EB7E9FF228BBA73900F8C91B /* EsqueciSenha.swift in Sources */,
 				82A4040428DAA57800F38990 /* TagsResultsViewController.swift in Sources */,
+				EB43688728FDD8D20023A2F9 /* TelaRegisterVC.swift in Sources */,
 				82A403F928DA9DF400F38990 /* AllTagsModel.swift in Sources */,
 				069F5DE028B4165F00C15177 /* TagCell.swift in Sources */,
 				82C9BE4828DA89BE00D890EF /* FooterViewCell.swift in Sources */,
